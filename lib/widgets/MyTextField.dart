@@ -16,6 +16,7 @@ class MyTextField extends StatelessWidget {
             border: const OutlineInputBorder(),
             filled: true,
             fillColor: Colors.grey[100],
+            contentPadding: const EdgeInsets.symmetric(vertical: 8),
           ),
         )
       ],
