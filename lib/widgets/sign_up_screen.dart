@@ -19,8 +19,8 @@ class SignUpScreen extends StatelessWidget {
               const SizedBox(height: 20),
 
               //Title
-              const Text('Sign up'),
-              const SizedBox(height: 20),
+              const Text('Sign up', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+              const SizedBox(height: 40),
 
               //Name
               MyTextField(label: 'Name'),
@@ -55,7 +55,7 @@ class SignUpScreen extends StatelessWidget {
                   child: const Text('Sign up'),
                 ),
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 10),
 
               //Back button
               SizedBox(
